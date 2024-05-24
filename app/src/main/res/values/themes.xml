@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Deliciadsouza_COMP304Lab2_Ex1" parent="Theme.MaterialComponents.Light.DarkActionBar" />
+<!--    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar" tools:ignore="ResourceCycle" />-->
+</resources>

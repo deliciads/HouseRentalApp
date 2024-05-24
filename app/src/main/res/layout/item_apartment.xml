@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_apartment.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/apartmentImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/apt_1"
+        android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/apartmentAddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/apartmentPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp"
+        android:layout_marginTop="4dp"/>
+
+    <CheckBox
+        android:id="@+id/apartmentCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>

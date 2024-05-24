@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Menu item for Apartments -->
+    <item
+        android:id="@+id/menu_apartment"
+        android:title="Apartment"/>
+    <!-- Menu item for Detached Homes -->
+    <item
+        android:id="@+id/menu_detached_home"
+        android:title="Detached Home"/>
+    <!-- Menu item for Semi-Detached Homes -->
+    <item
+        android:id="@+id/menu_semi_detached_home"
+        android:title="Semi-Detached Home"/>
+    <!-- Menu item for Condominium Apartments -->
+    <item
+        android:id="@+id/menu_condo_apartment"
+        android:title="Condominium Apartment"/>
+    <!-- Menu item for Town Houses -->
+    <item
+        android:id="@+id/menu_town_house"
+        android:title="Town House"/>
+</menu>
